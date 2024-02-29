@@ -8,8 +8,6 @@ public  class MasterTeacher implements Master{
     }
 
     Listener message=new Listener() {
-
-
         @Override
         public String message(String message) {
             return name+ message;
